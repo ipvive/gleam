@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package pb;
+option go_package = "github.com/chrislusf/gleam/pb";
 
 service GleamMaster {
   rpc GetResources(ComputeRequest) returns (AllocationResult) {}

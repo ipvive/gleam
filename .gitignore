@@ -2,3 +2,8 @@
 .DS_Store
 
 .idea/*
+
+# bazel
+bazel-*
+BUILD.bazel
+WORKSPACE
